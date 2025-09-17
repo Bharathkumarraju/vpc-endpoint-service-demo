@@ -1,0 +1,13 @@
+aws_region             = "ap-south-1"
+provider_vpc_cidr      = "10.20.0.0/16"
+provider_vpc_name      = "provider-vpc"
+provider_az_names      = ["ap-south-1a", "ap-south-1b"]
+provider_private_subnets = ["10.20.2.0/24", "10.20.3.0/24"]
+provider_public_subnets  = ["10.20.0.0/24", "10.20.1.0/24"]
+ami_name               = "vpc-endpoint-ami"
+web_sg_name            = "web-sg"
+instance_type          = "t2.micro"
+nlb_name               = "vpc-endpoint-demo-nlb"
+nlb_tg_name            = "vpc-endpoint-tg"
+private_dns_name       = "learnwithbharath.com"
+consumer_account_id    = "172586632398"

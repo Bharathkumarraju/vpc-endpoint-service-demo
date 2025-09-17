@@ -1,0 +1,11 @@
+aws_region            = "ap-south-1"
+consumer_vpc_cidr     = "10.10.0.0/16"
+consumer_vpc_name     = "consumer-vpc"
+consumer_az_names     = ["ap-south-1a", "ap-south-1b"]
+consumer_private_subnets = ["10.10.2.0/24", "10.10.3.0/24"]
+consumer_public_subnets  = ["10.10.0.0/24", "10.10.1.0/24"]
+client_sg_name        = "client-sg"
+ami_name              = "amzn2-ami-hvm-*-x86_64-gp2"
+instance_type         = "t2.micro"
+key_pair_name         = "bkmumbai"
+provider_service_name = "com.amazonaws.vpce.ap-south-1.vpce-svc-0a1c3a43fe0673125"
