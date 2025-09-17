@@ -1,0 +1,13 @@
+variable "provider_vpc_cidr" {}
+variable "provider_vpc_name" {}
+variable "provider_az_names" {}
+variable "provider_private_subnets" {}
+variable "provider_public_subnets" {}
+variable "ami_name" {}
+variable "web_sg_name" {}
+variable "instance_type" {}
+variable "nlb_name" {}
+variable "nlb_tg_name" {}
+variable "private_dns_name" {}
+variable "consumer_account_id" {}
+variable "aws_region" {}
